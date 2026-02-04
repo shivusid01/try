@@ -148,11 +148,11 @@
 
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://try-1-w0un.onrender.com/api';
 
 // Axios instance
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://try-1-w0un.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
